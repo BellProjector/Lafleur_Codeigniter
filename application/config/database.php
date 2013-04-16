@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'eu-cdbr-azure-west-b.cloudapp.net';
-$db['default']['username'] = 'bc9fcf4917e3ed';
-$db['default']['password'] = '51b335f0';
-$db['default']['database'] = 'baselafleurv2';
+$db['default']['hostname'] = 'kc4eoiyb0n.database.windows.net';
+$db['default']['username'] = 'ConnexionBDLaFleur';
+$db['default']['password'] = 'YUH678ui0Joe';
+$db['default']['database'] = 'bdlafleur';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
