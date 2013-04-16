@@ -1,0 +1,240 @@
+html {
+font:normal 100%/1.2em "Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+}
+
+
+ 
+	::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+
+
+
+#toolbar .topmenu a:link, #toolbar .topmenu a:visited {
+    color: #646464;
+}
+
+
+       #toolbar {
+    font-size: 9px;
+    height: 45px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+
+#toolbar .topmenu a.last, .topmenu a.last
+{
+    padding: 0 0 0 10px;
+}
+#toolbar .topmenu li a, #footer .topmenu li a
+{
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 10px;
+}
+a:link, a:visited
+{
+
+}
+a:link, a:visited
+{
+    color: #0000B7;
+    text-decoration: none;
+}
+
+#toolbar ul.topmenu
+{
+    list-style: none outside none;
+}
+#toolbar {
+    font-size: 9px;
+    line-height: 25px;
+}
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+     h2
+     {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 16px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+       h3
+       {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 12px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+#copywright {
+	padding: 0;
+	font-size: 13px;
+	margin-top: -35px;
+	padding-left: 13px;
+	width: 100%;
+	height: 20px;
+}
+p.copyText {
+	font-size: 11px;
+	color: #2d5ea0;
+	font-weight: bold;
+	text-align: center;
+        text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+}
+
+
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body{
+		margin: 0 15px 0 15px;
+	}
+
+	
+
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
+
+fieldset {
+ 		display:block;
+ 		width:50%;
+		border: 1px dotted #353535;
+		padding:2px;
+ 		overflow:hidden;                   
+}
+
+label {
+	background:transparent none;
+	display: block;
+	width: 20%;
+	float: left;
+	padding-right: 1%;
+	text-align: left;
+}
+
+input {
+	margin-left: 1%;
+	width: 25%;
+	border: #CCC 1px solid;
+}
+
+input:hover, #ent input:focus {
+	border: #999 1px solid;
+	background-color: #DDEEFF;
+}
+
+input[type="submit"]
+{
+	border: #DDEEFF 1px solid;
+	width: 30%;
+}
+.erreur{ 
+   background-color:rgb(237,210,229);
+   color:rgb(203,28,128);
+   font-size:1.1em;
+   width:95%;
+}
+.message{ 
+   background-color:rgb(99, 184, 255);
+   color:rgb(0,0,205);
+   font-size:1.1em;
+   width:95%;
+}
+body { font-family:Arial, Helvetica, sans-serif; }
+div.header { display:block; position:relative; height:100px; }
+#menu-container { display:block; position:relative; width:700px; margin:0px auto 0px; font-size:11px; }
+#drop_down_menu { display:block; position:absolute; clear:both; margin:0px; padding:0px; text-align:left; list-style-type:none; text-align:center; width:700px; float:none; left:0px; top:0px; }
+#drop_down_menu li { font-size:12px; font-weight:bold; float:left; color:#11a2db; padding:5px; cursor:pointer; background:#333333; width:150px; }
+#drop_down_menu li ul { margin:0px; padding:0px; list-style-type:none; padding-top:10px; }
+#drop_down_menu li ul li { display:block; float:none; clear:both;  }
+#drop_down_menu li ul li a { color:#FFFFFF; font-weight:normal; text-decoration:none; display:block; }
+#drop_down_menu li ul li a:HOVER { text-decoration:underline; color:#CCCCCC; }
+
+
+#categories{
+float:left;
+}
+
+#produits{
+padding:0 150px;
+}
+
+#contenu{
+
+}
+#categories li a {
+		text-decoration:none;
+}
+
+#categories li {
+		list-style-type: none;
+		list-style-image:none;
+		/*float:left; */
+    margin-right: 1px ;
+    border:1px solid #600;
+    width:100px;
+    text-align:center;
+background:#ccff11;
+}
+
+
+#produits li, #produits li a {
+		list-style-type: none;
+		list-style-image:none;
+		display:inline; 
+    width:175px;
+    text-align:center;
+    height:205px;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+}
+
+#produits ul{
+}
+
+
